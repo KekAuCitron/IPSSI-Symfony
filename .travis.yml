@@ -4,10 +4,12 @@
 
     before-install: true
 
-    install: true
+    install:
+        - composer install
 
     before-script: true
 
-    script: true
+    script:
+        - phpunit tests
 
     after-script: true
