@@ -2,12 +2,12 @@
     php:
         - '7.3'
 
-    before-install: false
+    before-install: true
 
-    install: false
+    install: true
 
-    before-script: false
+    before-script: true
 
-    script: false
+    script: true
 
-    after-script: false
+    after-script: true
