@@ -1,0 +1,13 @@
+    language: 'php'
+    php:
+        - '7.3'
+
+    before-install: false
+
+    install: false
+
+    before-script: false
+
+    script: false
+
+    after-script: false
