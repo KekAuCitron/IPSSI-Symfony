@@ -2,10 +2,15 @@
     php:
         - '7.3'
 
+    cache:
+        directories:
+            - $HOME/.composer/cache
+
     before-install: true
 
     install:
         - composer install
+        - composer require friendsofphp/php-cs-fixer --dev
 
     before-script: true
 
