@@ -10,7 +10,9 @@
     before-script: true
 
     script:
-        - ./vendor/bin/php-cs-fixer fix --dry-run --diff
+        - ./vendor/bin/php-cs-fixer fix --dry-run --diff --verbose
         - phpunit tests
+
+    ploy:
 
     after-script: true
