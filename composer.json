@@ -58,7 +58,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.15",
-        "phpunit/phpunit": "7",
+        "phpunit/phpunit": "7.5.18",
         "symfony/web-server-bundle": "4.3.*"
     }
 }
